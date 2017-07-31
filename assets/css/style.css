@@ -1,0 +1,11 @@
+/* Add a background color/image to the jumbotron */
+
+/* Add a theme to the body*/
+body {
+	background: url("../images/beach.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-color: #0F63E8
+}

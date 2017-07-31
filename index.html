@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/style.css">
+	
+
+</head>
+<body>
+<!-- Add jumbotron -->
+<div class="jumbotron">
+  <div class="container">
+  	<h1>Hangman!</h1>
+    ...
+  </div>
+</div>
+
+<div class="container">
+	<div class="row">
+
+		<!-- Add display for the word -->
+		<div col="col-lg-12">
+			<P id="word">The Word To Guess</P>
+		</div>
+	</div>
+
+	<div class="row">
+	
+		<!-- Input -->
+		<div col="col-lg-12">
+			Enter a letter:<p id="playerInput"></p>
+
+		</div>
+	</div>
+
+	<div class="row">
+
+		<!--Add display for how many tries are left -->
+		<div col="col-lg-12">
+			<P id="guessesLeft">Guesses Left</P>
+		</div>
+	</div>
+
+	<div class="row">
+
+		<!-- Letters already guessed -->
+		<div col="col-lg-12">
+			Guesses: <p id="guesses"></p>
+		</div>
+	</div>
+
+	<div class="row">
+
+		<!-- Wins / Losses with a message -->
+		<div col="col-lg-12">
+			<message></message>
+			<p id="wins">Wins</p>
+			<p id="losses">Losses</p>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="assets/javascript/game.js"></script>
+
+
+	
+</body>
+</html>
